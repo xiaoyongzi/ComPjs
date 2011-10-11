@@ -111,6 +111,7 @@ a {
 	padding: 10px 0;
 	border-bottom: 1px solid #ccc;
 	width: 100%;
+	overflow: auto;
 	clear: both;
 }
 
@@ -124,7 +125,8 @@ a {
 	text-align: center;
 }
 
-#output-div {
+#output-div, #run-div {
+	text-align: center;
 	display: none;
 }
 
@@ -133,6 +135,10 @@ textarea {
 	display: block;
 	width: 890px;
 	height: 160px;
+}
+
+canvas.run-canvas {
+	background: url('../images/bg.gif') 0 0 repeat;
 }
 
 #footer {
